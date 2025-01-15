@@ -23,7 +23,6 @@ gtest_subdirs = os.path.dirname(config.test_exec_root)
 # suffixes: A list of file extensions to treat as test files. gtest has its own
 # somewhat confusing discovery so let's be explicit about that here
 config.suffixes = []
-config.standalone = False
 
 # testFormat: The test format to use to interpret tests.
 config.test_format = lit.formats.GoogleTest(
